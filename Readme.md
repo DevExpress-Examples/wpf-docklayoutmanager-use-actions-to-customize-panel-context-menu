@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Window1.xaml](./CS/ContextMenuCustomizations_Ex/Window1.xaml) (VB: [Window1.xaml](./VB/ContextMenuCustomizations_Ex/Window1.xaml))
+* [Window1.xaml.cs](./CS/ContextMenuCustomizations_Ex/Window1.xaml.cs) (VB: [Window1.xaml](./VB/ContextMenuCustomizations_Ex/Window1.xaml))
+<!-- default file list end -->
 # How to: Customize a Panel's Context Menu via Actions
 
 
