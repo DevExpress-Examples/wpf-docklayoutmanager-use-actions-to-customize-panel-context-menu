@@ -9,9 +9,12 @@
                 <dxb:InsertBarItemLinkAction ItemLinkIndex="1">
                     <dxb:BarItemLinkSeparator />
                 </dxb:InsertBarItemLinkAction>
+            <!--Remove a comannd from the context menu-->
+            <dxb:RemoveAction ElementName="{x:Static dxdo:DefaultMenuItemNames.ClosedPanels}"/>
+            <!--Change the Hide button's caption -->
+            <dxb:UpdateAction ElementName="{x:Static dxdo:DefaultMenuItemNames.Hide}" PropertyName="Content" Value="Hide Item"/>
             </dxdo:DockLayoutManager.ContextMenuCustomizations>
             <!--endregion #1-->
-
             <dxdo:LayoutGroup x:Name="rootGroup" Orientation="Horizontal">
                 <dxdo:LayoutPanel x:Name="paneProperties" Caption="Properties" ItemWidth="150">
                     <RichTextBox>
