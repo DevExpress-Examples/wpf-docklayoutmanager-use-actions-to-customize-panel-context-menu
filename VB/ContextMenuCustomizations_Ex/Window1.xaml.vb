@@ -1,5 +1,4 @@
 Imports System.Windows
-Imports System.Windows.Controls
 
 Namespace ContextMenuCustomizations_Ex
 
