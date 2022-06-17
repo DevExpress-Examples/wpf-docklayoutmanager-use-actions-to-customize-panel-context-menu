@@ -22,13 +22,13 @@
                     CategoryName="Help"
                     Content="About"
                     ItemClick="bAbout_ItemClick" />
-                <!--  Add a separator  -->
+                <!--  Adds a separator  -->
                 <dxb:InsertBarItemLinkAction ItemLinkIndex="1">
                     <dxb:BarItemLinkSeparator />
                 </dxb:InsertBarItemLinkAction>
-                <!--  Remove a comannd from the context menu  -->
+                <!--  Removes a command from the context menu  -->
                 <dxb:RemoveAction ElementName="{x:Static dxdo:DefaultMenuItemNames.ClosedPanels}" />
-                <!--  Change the Hide button's caption  -->
+                <!--  Changes the Hide button's caption  -->
                 <dxb:UpdateAction
                     ElementName="{x:Static dxdo:DefaultMenuItemNames.Hide}"
                     PropertyName="Content"
